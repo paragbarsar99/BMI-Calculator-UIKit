@@ -9,10 +9,17 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+//    var window: UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+//        let firstViewController = BMICalculatorViewController()
+               
+               // Embed it in a navigation controller
+//               let navigationController = UINavigationController(rootViewController: firstViewController)
+//               
+//               // Set up the window
+//               window = UIWindow(frame: UIScreen.main.bounds)
+//               window?.rootViewController = navigationController
+//               window?.makeKeyAndVisible()
         // Override point for customization after application launch.
         return true
     }
